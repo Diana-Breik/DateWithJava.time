@@ -46,6 +46,12 @@ public class Main {
         long different = ChronoUnit.DAYS.between(localDate2,localDate1);//  zweiter Parameter - erster Parameter
         System.out.println("the difference between two dates is: " + different);
 
-        
+        System.out.println("---------Bonus-Aufgaben-----------");
+
+        Animal animal = new Animal("Mischu",(LocalDate.of(2011,9,24)));
+
+        System.out.println("the numbers of days until the next birthday of this animal: " + animal.numberOfDaysUntilNextBirthday());
+
+
     }
 }
